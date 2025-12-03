@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="web icon" href="pal.jpg">
+  <title>Prashant Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <h1 class="logo">PRASHANT</h1>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HIRE ME BUTTON (FLOATING) -->
+  <a href="mailto:paulprahant@gmail.com?subject=Hire%20Me&body=Hello%20Prashant," 
+   class="btn" 
+   style="position:fixed; bottom:30px; right:30px; 
+   z-index:200; background:#4da6ff; padding:14px 28px; 
+   border-radius:6px; text-decoration:none; color:black; font-weight:600;">
+   Hire Me
+</a>
+
+  <!-- PROFILE SECTION -->
+  <section id="home" class="home-section">
+    <img src="pal.jpg" class="profile-img" alt="Profile Photo" />
+    <h1 class="title">PRASHANT</h1>
+    <h2 class="subtitle">Full Stack Developer</h2>
+    <p class="desc">Building scalable applications, backend APIs and beautiful UI/UX using the MERN Stack.</p>
+    <div class="home-buttons" style="display:flex; justify-content:center; gap:20px; margin-top:20px;">
+      <a href="#about" class="btn">Explore Portfolio</a>
+      <a href="prashant full stackdeveloper (1).pdf" download class="btn" >my resume</a>
+    </div>
+  </section>
+
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="skills-section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /><p>HTML5</p></div>
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /><p>CSS3</p></div>
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /><p>JavaScript</p></div>
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /><p>React.js</p></div>
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" /><p>Node.js</p></div>
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" /><p>MongoDB</p></div>
+      <div class="skill"><img src="https://cdn-icons-png.flaticon.com/512/1497/1497810.png" /><p>REST APIs</p></div>
+      <div class="skill"><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" /><p>Postman</p></div>
+    </div>
+  </section>
+
+ <!-- ABOUT SECTION -->
+  <section id="about" class="about-section">
+    <h2>About Me</h2>
+    <p>Full-stack developer skilled in building scalable applications, backend APIs, and modern UI using JavaScript & MERN.
+      Strong debugging and problem-solving abilities, currently contributing to production-level development.</p>
+       <img src="about me .gif" alt="">
+  </section>
+
+  <!-- EXPERIENCE SECTION -->
+  <section class="experience-section">
+    <h2>Experience</h2>
+
+    <div class="exp-card">
+      <h3><img src="skill.webp" alt="" class="tool">Web Development Intern -Caktus Web Solution</h3>
+      <p>Nov 2025 – Present | Noida Sector-62</p>
+      <ul>
+        <li>Engineering MERN modules and server-side APIs</li>
+        <li>Debugging, optimizing issues, handling Git/GitHub</li>
+        <li>Deploying production features</li>
+        <li>Integrated Cloudinary & real-time APIs</li>
+      </ul>
+    </div>
+
+    <div class="exp-card">
+      <h3><img src="skill.webp" alt="" class="tool">MERN Trainee - Ducat Institute</h3>
+      <p>Jun 2025 – Oct 2025 | Noida Sector-63</p>
+      <ul>
+        <li>Built MERN apps with CRUD + Authentication</li>
+        <li>Developed backend APIs & frontend integration</li>
+        <li>Improved MongoDB performance & secure APIs</li>
+      </ul>
+    </div>
+  </section>
+<section class="projects-section">
+  <h2>My Projects</h2>
+
+  <div class="project-row">
+
+    <!-- PROJECT 1 -->
+    <a href="https://prashant8267.github.io/studio-project/ " target="_blank" class="project-link">
+      <div class="project-card">
+        <div class="project-image">
+          <img src="photo.jpg" alt="Project 1 Image">
+        </div>
+
+        <h3>Photo Studio Appication</h3>
+        <ul>
+          <li>JWT Authentication</li>
+          <li>Create / Edit / Delete Posts</li>
+          <li>Responsive UI</li>
+        </ul>
+      </div>
+    </a>
+
+    <!-- PROJECT 2 -->
+    <a href="https://your-project-link-2.com" target="_blank" class="project-link">
+      <div class="project-card">
+        <div class="project-image">
+          <img src="nca background img.jpg" alt="Project 2 Image">
+        </div>
+
+        <h3>NCA IT SOLUTON WEBSITE</h3>
+        <ul>
+          <li>Live Weather API</li>
+          <li>City Search</li>
+          <li>Dynamic Icons</li>
+        </ul>
+      </div>
+    </a>
+
+    <!-- PROJECT 3 -->
+    <a href="https://your-project-link-3.com" target="_blank" class="project-link">
+      <div class="project-card">
+        <div class="project-image">
+          <img src="port img.png" alt="Project 3 Image" >
+        </div>
+
+        <h3>Portfolio Website</h3>
+        <ul>
+          <li>Modern UI</li>
+          <li>Animations</li>
+        </ul>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <p>📍 Noida, Sector-62</p>
+    <p>📞 +91 8267929368</p>
+    <a href="mailto:paulprahant@gmail.com" class="email">📧 paulprahant@gmail.com</a>
+  </section>
+  <!-- SOCIAL MEDIA SECTION -->
+<section class="social-section">
+  <h2>Connect With Me</h2>
+
+  <div class="social-links">
+
+    <a href="https://github.com/Prashant8267" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" class="social-icon" />
+    </a>
+
+    <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" class="social-icon" />
+    </a>
+
+    <a href="https://www.instagram.com/yourprofile" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" class="social-icon" />
+    </a>
+
+  </div>
+</section>
+
+</body>
+</html>
